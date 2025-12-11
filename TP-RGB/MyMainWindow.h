@@ -19,6 +19,24 @@ public:
 
 private slots:
 
+    void on_verticalSlider_valueChanged(int value);
+
+    void on_spinBox_valueChanged(int arg1);
+
+    void on_verticalSlider_2_valueChanged(int value);
+
+    void on_spinBox_2_valueChanged(int arg1);
+
+    void on_verticalSlider_3_valueChanged(int value);
+
+    void on_spinBox_3_valueChanged(int arg1);
+
+    //void RedAjust(int value);
+
+   // void GreenAjust(int value);
+
+    //void BlueAjust(int value);
+
 private:
     Ui::MyMainWindow *ui;
 };
